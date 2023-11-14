@@ -4,9 +4,8 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build && electron-builder",
-    "start": "electron .",
+    "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "build": {
